@@ -1,0 +1,2017 @@
+/*001*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE001",
+   "nombreRepartidor": "Julio Perez",
+   "telefonoRepartidor": 948949494,
+   "promedioValoracion": 3.5,
+   "transporte":{
+          "idTransporte": "TR001",
+          "tipoTransporte": "Bicicleta",
+          "estado": "Listo",
+          "capacidad":3
+   },
+}
+)
+
+
+/*002*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE002",
+   "nombreRepartidor": "Noami Denyer",
+   "telefonoRepartidor": 983268660,
+   "promedioValoracion": 2.5,
+   "transporte":{
+          "idTransporte": "TR002",
+          "tipoTransporte": "Bicicleta",
+          "estado": "Listo",
+          "capacidad":3
+   },
+}
+)
+
+/*003*/
+
+db.Repartidor.insertOne(
+{
+   "_id": "RE003",
+   "nombreRepartidor": "Natalya Early",
+   "telefonoRepartidor": 967333924,
+   "promedioValoracion": 4.7,
+   "transporte":{
+          "idTransporte": "TR003",
+          "tipoTransporte": "Motocicleta",
+          "estado": "Listo",
+          "capacidad":5
+   },
+}
+)
+
+
+
+
+/*004*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE004",
+   "nombreRepartidor": "Georgine Lounds",
+   "telefonoRepartidor": 932987032,
+   "promedioValoracion": 4.9,
+   "transporte":{
+          "idTransporte": "TR004",
+          "tipoTransporte": "Motocicleta",
+          "estado": "Deshabilitado",
+          "capacidad":5
+   },
+}
+)
+
+
+/*005*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE005",
+   "nombreRepartidor": "Rafael Ginnane",
+   "telefonoRepartidor": 980289069,
+   "promedioValoracion": 1.9,
+   "transporte":{
+          "idTransporte": "TR005",
+          "tipoTransporte": "Motocicleta",
+          "estado": "Deshabilitado",
+          "capacidad":5
+   },
+}
+)
+
+/*006*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE006",
+   "nombreRepartidor": "Maje Braddock",
+   "telefonoRepartidor": 967314237,
+   "promedioValoracion": 3.1,
+   "transporte":{
+          "idTransporte": "TR006",
+          "tipoTransporte": "Motocicleta",
+          "estado": "Deshabilitado",
+          "capacidad":5
+   },
+}
+)
+
+/*007*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE007",
+   "nombreRepartidor": "Sonni Rodell",
+   "telefonoRepartidor": 940513979,
+   "promedioValoracion": 3.5,
+   "transporte": {
+          "idTransporte": "TR007",
+          "tipoTransporte": "Motocicleta",
+          "estado": "Deshabilitado",
+          "capacidad": 5
+   },
+}
+)
+/*
+/*008*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE008",
+   "nombreRepartidor": "Nita Capron",
+   "telefonoRepartidor": 918685464,
+   "promedioValoracion": 4.9,
+   "transporte": {
+          "idTransporte": "TR008",
+          "tipoTransporte": "Motocicleta",
+          "estado": "Deshabilitado",
+          "capacidad": 5
+   },
+}
+)
+
+/*009*/
+db.Repartidor.insertOne(
+{
+   "_id": "RE009",
+   "nombreRepartidor": "Giraldo Jerg",
+   "telefonoRepartidor": 930902520,
+   "promedioValoracion": 4.2,
+   "transporte": {
+          "idTransporte": "TR009",
+          "tipoTransporte": "Motocicleta",
+          "estado": "En transito",
+          "capacidad": 5
+   },
+}
+)
+
+/*010*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE010",
+  "nombreRepartidor": "Inessa Walkden",
+  "telefonoRepartidor": 947871134,
+  "promedioValoracion": 4.1,
+  "transporte": {
+         "idTransporte": "TR010",
+         "tipoTransporte": "Motocicleta",
+         "estado": "En transito",
+         "capacidad": 5
+  }
+}
+)
+
+/*011*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE011",
+  "nombreRepartidor": "Fergus Ranshaw",
+  "telefonoRepartidor": 980185037,
+  "promedioValoracion": 2.9,
+  "transporte": {
+         "idTransporte": "TR011",
+         "tipoTransporte": "Bicicleta",
+         "estado": "En transito",
+         "capacidad": 3
+  }
+}
+)
+
+/*012*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE012",
+  "nombreRepartidor": "Cletis Moro",
+  "telefonoRepartidor": 916984269,
+  "promedioValoracion": 3.1,
+  "transporte": {
+         "idTransporte": "TR012",
+         "tipoTransporte": "Motocicleta",
+         "estado": "En transito",
+         "capacidad": 3
+  }
+}
+)
+
+/*013*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE013",
+  "nombreRepartidor": "Cicily Alexander",
+  "telefonoRepartidor": 999101254,
+  "promedioValoracion": 3.1,
+  "transporte":{
+         "idTransporte": "TR013",
+         "tipoTransporte": "Motocicleta",
+         "estado": "En transito",
+         "capacidad": 5
+  }
+}
+)
+/*014*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE014",
+  "nombreRepartidor": "Dominic Beever",
+  "telefonoRepartidor": 974224473,
+  "promedioValoracion": 4.1,
+  "transporte":{
+         "idTransporte": "TR014",
+         "tipoTransporte": "Motocicleta",
+         "estado": "En transito",
+         "capacidad": 5
+  }
+}
+)
+/*015*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE015",
+  "nombreRepartidor": "Ilysa Dougher",
+  "telefonoRepartidor": 962269697,
+  "promedioValoracion": 4.5,
+  "transporte":{
+         "idTransporte": "TR015",
+         "tipoTransporte": "Bicicleta",
+         "estado": "Listo",
+         "capacidad": 3
+  }
+}
+)
+/*016*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE016",
+  "nombreRepartidor": "Woodman Abson",
+  "telefonoRepartidor":945906320,
+  "promedioValoracion": 2.7,
+  "transporte":{
+         "idTransporte": "TR016",
+         "tipoTransporte": "Motocicleta",
+         "estado": "Listo",
+         "capacidad": 3
+  }
+}
+)
+
+/*Repartidor*/
+
+
+
+/*017*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE017",
+  "nombreRepartidor": "Salmon Lehrian",
+  "telefonoRepartidor":970595167,
+  "promedioValoracion": 2.9,
+  "transporte":{
+         "idTransporte": "TR017",
+         "tipoTransporte": "Motocicleta",
+         "estado": "En tránsito",
+         "capacidad": 5
+  }
+}
+)
+
+/*018*/
+db.Repartidor.insertOne(
+{
+  "_id": "RE018",
+  "nombreRepartidor": "Stephanie Pouck",
+  "telefonoRepartidor":988549735,
+  "promedioValoracion": 3.1,
+  "transporte":{
+         "idTransporte": "TR018",
+         "tipoTransporte": "Bicicleta",
+         "estado": "Listo",
+         "capacidad": 4
+  }
+}
+)
+
+/*019*/
+
+db.Repartidor.insertOne(
+{
+"_id": "RE019",
+ "nombreRepartidor": "Sisile Coogan",
+ "telefonoRepartidor": 976571661,
+ "promedioValoracion": 3.9,
+ "transporte": {
+           "idTransporte": "TR019",
+           "tipoTransporte": "Motocicleta",
+           "estado": "Listo",
+           "capacidad": 5
+ },
+}
+
+)
+
+/*020*/
+db.Repartidor.insertOne(
+{
+"_id": "RE020",
+ "nombreRepartidor": "Marnia Gummery",
+ "telefonoRepartidor": 986577757,
+ "promedioValoracion": 2.7,
+ "transporte": {
+           "idTransporte": "TR020",
+           "tipoTransporte": "Motocicleta",
+           "estado": "Listo",
+           "capacidad": 5
+ },
+}
+
+)
+
+
+/*Orden*/
+
+/*001*/
+
+db.Orden.insertOne(
+{
+"_id": "OR001",
+"idRepartidor": "RE001",
+"idConsumidor": "UC001",
+"fechaOrden": new Date("2022-11-19"),
+"medioDePago": "Tarjeta",
+"ordenDetalles":[
+  {
+      "idProducto": "PR001",
+      "descuento": 9,
+      "cantidadProducto": 3,
+      "precioTotal": 5.97,
+  },
+  {
+      "idProducto": "PR020",
+      "descuento": 2,
+      "cantidadProducto": 1,
+      "precioTotal": 32.99,
+  },
+{
+      "idProducto": "PR008",
+      "descuento": 2,
+      "cantidadProducto": 4,
+      "precioTotal": 89.96,
+  },]
+}
+)
+
+
+/*002*/
+
+db.Orden.insertOne(
+{
+"_id": "OR002",
+"idRepartidor": "RE001",
+"idConsumidor": "UC001",
+"fechaOrden": new Date("2022-10-26"),
+"medioDePago": "Efectivo",
+"ordenDetalles":[
+  {
+      "idProducto": "PR002",
+      "descuento": 10,
+      "cantidadProducto": 2,
+      "precioTotal": 51.98,
+  },
+  {
+      "idProducto": "PR019",
+      "descuento": 8,
+      "cantidadProducto": 3,
+      "precioTotal": 57.97,
+  }]
+}
+)
+
+
+/*003*/
+
+db.Orden.insertOne(
+{
+"_id": "OR003",
+"idRepartidor": "RE001",
+"idConsumidor": "UC001",
+"fechaOrden": new Date("2022-01-12"),
+"medioDePago": "Transferencia",
+"ordenDetalles":[
+  {
+      "idProducto": "PR003",
+      "descuento": 8,
+      "cantidadProducto": 3,
+      "precioTotal": 45.97,
+  },
+  {
+      "idProducto": "PR013",
+      "descuento": 3,
+      "cantidadProducto": 3,
+      "precioTotal": 8.97,
+  }]
+}
+)
+
+
+/*004*/
+db.Orden.insertOne(
+{
+"_id": "OR004",
+"idRepartidor": "RE001",
+"idConsumidor": "UC004",
+"fechaOrden": new Date("2022-02-22"),
+"medioDePago": "Tarjeta",
+"ordenDetalles":[
+   {
+       "idProducto":"PR017",
+       "descuento":3,
+       "cantidadProducto": 1,
+       "precioTotal":14.99,
+   },
+   {
+       "idProducto":"PR004",
+       "descuento":8,
+       "cantidadProducto": 2,
+       "precioTotal":43.98,
+   }]
+}
+)
+
+/*005*/
+db.Orden.insertOne(
+{
+"_id": "OR005",
+"idRepartidor": "RE004",
+"idConsumidor": "UC005",
+"fechaOrden": new Date("2022-04-20"),
+"medioDePago": "Efectivo",
+"ordenDetalles":[
+   {
+       "idProducto":"PR016",
+       "descuento":8,
+       "cantidadProducto": 4,
+       "precioTotal":111.96,
+   },
+   {
+       "idProducto":"PR006",
+       "descuento":4,
+       "cantidadProducto": 3,
+       "precioTotal":16.97,
+   },
+  {
+       "idProducto":"PR005",
+       "descuento":4,
+       "cantidadProducto": 3,
+       "precioTotal":58.47,
+   }]
+}
+)
+
+/*006*/
+db.Orden.insertOne(
+{
+"_id": "OR006",
+"idRepartidor": "RE004",
+"idConsumidor": "UC005",
+"fechaOrden": new Date("2022-06-30"),
+"medioDePago": "Transferencia",
+"ordenDetalles":[
+   {
+       "idProducto":"PR015",
+       "descuento":8,
+       "cantidadProducto": 4,
+       "precioTotal":87.96,
+   },
+   {
+       "idProducto":"PR012",
+       "descuento":5,
+       "cantidadProducto": 5,
+       "precioTotal":39.95,
+   },
+  {
+       "idProducto":"PR006",
+       "descuento":9,
+       "cantidadProducto": 5,
+       "precioTotal":25.95,
+   }]
+}
+)
+
+/*007*/
+db.Orden.insertOne(
+{
+"_id": "OR007",
+"idRepartidor": "RE004",
+"idConsumidor": "UC005",
+"fechaOrden": new Date("2022-06-11"),
+"medioDePago": "Tarjeta",
+"ordenDetalles":[
+   {
+       "idProducto": "PR007",
+       "descuento": 4,
+       "cantidadProducto": 2,
+       "precioTotal": 27.98,
+   }]
+}
+)
+
+/*008*/
+db.Orden.insertOne(
+{
+"_id": "OR008",
+"idRepartidor": "RE002",
+"idConsumidor": "UC008",
+"fechaOrden": new Date("2022-09-13"),
+"medioDePago": "Efectivo",
+"ordenDetalles":[
+   {
+       "idProducto": "PR008",
+       "descuento": 9,
+       "cantidadProducto": 2,
+       "precioTotal": 36.98,
+   },
+   {
+       "idProducto": "PR013",
+       "descuento": 2,
+       "cantidadProducto": 2,
+       "precioTotal": 5.98,
+   },
+   {
+       "idProducto": "PR003",
+       "descuento": 6,
+       "cantidadProducto": 5,
+       "precioTotal": 83.95,
+   }]
+}
+)
+
+/*009*/
+db.Orden.insertOne(
+{
+"_id": "OR009",
+"idRepartidor": "RE002",
+"idConsumidor": "UC008",
+"fechaOrden": new Date("2022-05-13"),
+"medioDePago": "Transferencia",
+"ordenDetalles":[
+   {
+       "idProducto": "PR009",
+       "descuento": 7,
+       "cantidadProducto": 5,
+       "precioTotal": 127.95,
+   },
+   {
+       "idProducto": "PR004",
+       "descuento": 6,
+       "cantidadProducto": 3,
+       "precioTotal": 71.97,
+   }]
+}
+)
+
+/*010*/
+db.Orden.insertOne(
+{
+   "_id": "OR010",
+   "idRepartidor": "RE002",
+   "idConsumidor": "UC010",
+   "fechaOrden": new Date("2022-06-21"),
+   "medioDePago": "Tarjeta",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR010",
+       "descuento": 10,
+       "cantidadProducto": 1,
+       "precioTotal": 5.89
+
+   },
+   {
+       "idProducto": "PR007",
+       "descuento": 6,
+       "cantidadProducto": 3,
+       "precioTotal": 41.98
+   }]
+}
+)
+
+
+/*011*/
+db.Orden.insertOne(
+{
+   "_id": "OR011",
+   "idRepartidor": "RE010",
+   "idConsumidor": "UC011",
+   "fechaOrden": new Date("2022-05-20"),
+   "medioDePago": "Efectivo",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR011",
+       "descuento": 5,
+       "cantidadProducto": 4,
+       "precioTotal": 110.98
+
+   },
+   {
+       "idProducto": "PR010",
+       "descuento": 10,
+       "cantidadProducto": 2,
+       "precioTotal": 21.99
+   },
+   {
+       "idProducto": "PR017",
+       "descuento": 7,
+       "cantidadProducto": 2,
+       "precioTotal": 29.03
+   }
+   ]
+}
+)
+
+/*012*/
+db.Orden.insertOne(
+{
+   "_id": "OR012",
+   "idRepartidor": "RE010",
+   "idConsumidor": "UC012",
+   "fechaOrden": new Date("2022-04-27"),
+   "medioDePago": "Transferencia",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR012",
+       "descuento": 4,
+       "cantidadProducto": 2,
+       "precioTotal": 13.78
+
+   },
+   {
+       "idProducto": "PR009",
+       "descuento": 8,
+       "cantidadProducto": 3,
+       "precioTotal": 72.87,
+   }]
+}
+)
+
+/*013*/
+db.Orden.insertOne(
+{
+   "_id": "OR013",
+   "idRepartidor": "RE010",
+   "idConsumidor": "UC012",
+   "fechaOrden": new Date("2022-03-11"),
+   "medioDePago": "Tarjeta",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR013",
+       "descuento": 2,
+       "cantidadProducto": 5,
+       "precioTotal": 17.85,
+   },
+   {
+   "idProducto": "PR008",
+   "descuento": 3,
+   "cantidadProducto": 1,
+   "precioTotal": 19.99,
+   },
+   {
+   "idProducto": "PR002",
+   "descuento": 8,
+   "cantidadProducto": 2,
+   "precioTotal": 53.98,
+}]
+}
+)
+/*014*/
+db.Orden.insertOne(
+{
+   "_id": "OR014",
+   "idRepartidor": "RE014",
+   "idConsumidor": "UC012",
+   "fechaOrden": new Date("2022-03-12"),
+   "medioDePago": "Efectivo",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR014",
+       "descuento": 8,
+       "cantidadProducto": 3,
+       "precioTotal": 54.97,
+   },
+   {
+       "idProducto": "PR011",
+       "descuento": 8,
+       "cantidadProducto": 5,
+       "precioTotal": 136.95,
+   },
+   ]
+}
+)
+
+/*015*/
+db.Orden.insertOne(
+{
+   "_id": "OR015",
+   "idRepartidor": "RE015",
+   "idConsumidor": "UC015",
+   "fechaOrden": new Date("2022-03-13"),
+   "medioDePago": "Transferencia",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR015",
+       "descuento": 3,
+       "cantidadProducto": 4,
+       "precioTotal": 92.96,
+   },
+   {
+       "idProducto": "PR006",
+       "descuento": 8,
+       "cantidadProducto": 2,
+       "precioTotal": 5.98,
+   },
+   {
+       "idProducto": "PR010",
+       "descuento": 9,
+       "cantidadProducto": 2,
+       "precioTotal": 22.98,
+   },
+   ]
+}
+)
+/*016*/
+db.Orden.insertOne(
+{
+   "_id": "OR016",
+   "idRepartidor": "RE015",
+   "idConsumidor": "UC016",
+   "fechaOrden": new Date("2022-03-14"),
+   "medioDePago": "Tarjeta",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR016",
+       "descuento": 9,
+       "cantidadProducto": 1,
+       "precioTotal": 21.49,
+   },
+   {
+       "idProducto": "PR005",
+       "descuento": 8,
+       "cantidadProducto": 4,
+       "precioTotal": 75.96,
+   },
+   {
+       "idProducto": "PR014",
+       "descuento": 9,
+       "cantidadProducto": 4,
+       "precioTotal": 74.96,
+   },
+   ]
+}
+)
+/*017*/
+db.Orden.insertOne(
+{
+   "_id": "OR017",
+   "idRepartidor": "RE017",
+   "idConsumidor": "UC002",
+   "fechaOrden": new Date("2022-02-10"),
+   "medioDePago": "Efectivo",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR017",
+       "descuento": 2,
+       "cantidadProducto": 2,
+       "precioTotal": 33.98,
+   }
+   ]
+}
+)
+
+/*018*/
+db.Orden.insertOne(
+{
+   "_id": "OR018",
+   "idRepartidor": "RE018",
+   "idConsumidor": "UC002",
+   "fechaOrden": new Date("2022-03-16"),
+   "medioDePago": "Efectivo",
+   "ordenDetalles":[
+   {
+       "idProducto": "PR018",
+       "descuento": 9,
+       "cantidadProducto": 5,
+       "precioTotal": 200.95,
+   },
+   {
+       "idProducto": "PR003",
+       "descuento": 6,
+       "cantidadProducto": 4,
+       "precioTotal": 65.96,
+   },
+   {
+       "idProducto": "PR019",
+       "descuento": 9,
+       "cantidadProducto": 3,
+       "precioTotal": 56.97,
+   },
+   ]
+}
+)
+
+/*019*/
+db.Orden.insertOne(
+{
+ "_id": "OR019",
+ "idRepartidor": "RE019|",
+ "idConsumidor": "UC020",
+ "fechaOrden": new Date("2022-03-17"),
+ "medioDePago": "Tarjeta",
+ "ordenDetalles":[{
+
+  "idProducto": "PR019",
+ "descuento": 2,
+ "cantidadProducto": 5,
+ "precioTotal": 107.95,
+
+ },{
+  "idProducto": "PR002",
+  "descuento": 2,
+ "cantidadProducto": 1,
+ "precioTotal": 28.99,
+ },{
+  "idProducto": "PR020",
+  "descuento": 9,
+ "cantidadProducto": 3,
+ "precioTotal": 95.97,
+ }]
+
+}
+)
+
+/*020*/
+
+db.Orden.insertOne(
+{
+ "_id": "OR020",
+ "idRepartidor": "RE020",
+ "idConsumidor": "UC020",
+ "fechaOrden": new Date("2022-03-18"),
+ "medioDePago": "Efectivo",
+ "ordenDetalles":[{
+
+  "idProducto": "PR020",
+ "descuento": 4,
+ "cantidadProducto": 4,
+ "precioTotal": 65.98,
+
+ },{
+  "idProducto": "PR009",
+  "descuento": 10,
+ "cantidadProducto": 3,
+ "precioTotal": 70.97,
+ }]
+}
+)
+
+
+
+/*Producto*/
+
+/*001*/
+
+db.Producto.insertOne(
+{
+"_id": "PR001",
+"idEmpresa": "UE001",
+"nombre": "Leche deslactosada",
+"precioUnitario": 4.99,
+"stock": 25,
+"valorNutricional":
+   {
+      "calorias": 16,
+      "proteinas": 46,
+      "carbohidratos": 19,
+      "grasas": 50,
+   },
+"categoria":
+   {
+      "nombreCategoria": "Lacteas",
+      "descripcion": "Leche deslactosada"
+   }
+})
+
+
+/*002*/
+
+db.Producto.insertOne(
+{
+"_id": "PR002",
+"idEmpresa": "UE001",
+"nombre": "Miel orgánica",
+"precioUnitario": 30.99,
+"stock": 15,
+"valorNutricional":
+   {
+      "calorias": 304,
+      "proteinas": 0,
+      "carbohidratos": 76,
+      "grasas": 0,
+   },
+"categoria":
+   {
+      "nombreCategoria": "Endulzantes",
+      "descripcion": "Miel orgánica de abeja 500 grs"
+   }
+})
+
+
+/*003*/
+
+db.Producto.insertOne(
+{
+"_id": "PR003",
+"idEmpresa": "UE003",
+"nombre": "Cereal orgánico andino",
+"precioUnitario": 17.99,
+"stock": 23,
+"valorNutricional":
+   {
+      "calorias": 73,
+      "proteinas": 3,
+      "carbohidratos": 13,
+      "grasas": 11,
+   },
+"categoria":
+   {
+      "nombreCategoria": "Cereales",
+      "descripcion": "Cereal organico de quinua, kiwicha y arroz"
+   }
+})
+
+
+/*004*/
+db.Producto.insertOne(
+{
+"_id": "PR004",
+"idEmpresa": "UE004",
+"nombre": "Harina de almendras",
+"precioUnitario": 25.99,
+"stock": 11,
+"valorNutricional":
+   {
+      "calorias": 163,
+      "proteinas":6,
+      "carbohidratos":6,
+      "grasas": 14,
+   },
+"categoria":
+   {
+      "nombreCategoria":"Harinas",
+      "descripcion":"Harina de almendras libre de gluten 250 grs"
+   }
+})
+
+/*005*/
+db.Producto.insertOne(
+{
+"_id": "PR005",
+"idEmpresa": "UE005",
+"nombre": "Mermelada de arandanos",
+"precioUnitario": 20.99,
+"stock": 17,
+"valorNutricional":
+   {
+      "calorias": 48,
+      "proteinas":2,
+      "carbohidratos":3,
+      "grasas": 0,
+   },
+"categoria":
+   {
+      "nombreCategoria":"Mermeladas",
+      "descripcion":"Mermelada de arandanos 280 ML"
+   }
+})
+
+/*006*/
+db.Producto.insertOne(
+{
+"_id": "PR006",
+"idEmpresa": "UE006",
+"nombre": "Yogurt griego",
+"precioUnitario": 6.99,
+"stock": 20,
+"valorNutricional":
+   {
+      "calorias": 155,
+      "proteinas":11,
+      "carbohidratos":53,
+      "grasas": 4,
+   },
+"categoria":
+   {
+      "nombreCategoria":"Yogures",
+      "descripcion":"Yogurt griego natural 800 g"
+   }
+})
+
+/*007*/
+db.Producto.insertOne(
+{
+"_id": "PR007",
+"idEmpresa": "UE010",
+"nombre": "Cacao en polvo",
+"precioUnitario": 15.99,
+"stock": 15,
+"valorNutricional":
+    {
+       "calorias": 400,
+       "proteinas": 27,
+       "carbohidratos": 46,
+       "grasas": 10,
+    },
+"categoria":
+    {
+       "nombreCategoria": "Chocolates",
+       "descripcion": "Cacao en polvo orgánico 150 grs"
+    }
+})
+
+/*008*/
+db.Producto.insertOne(
+{
+"_id": "PR008",
+"idEmpresa": "UE008",
+"nombre": "Miel de panela",
+"precioUnitario": 22.99,
+"stock": 12,
+"valorNutricional":
+    {
+       "calorias": 180,
+       "proteinas": 2,
+       "carbohidratos": 80,
+       "grasas": 4,
+    },
+"categoria":
+    {
+       "nombreCategoria": "Endulzantes",
+       "descripcion": "Miel de panela con mix de frutas 400 grs"
+    }
+})
+
+/*009*/
+db.Producto.insertOne(
+{
+"_id": "PR009",
+"idEmpresa": "UE005",
+"nombre": "CaféLink",
+"precioUnitario": 26.99,
+"stock": 10,
+"valorNutricional":
+    {
+       "calorias": 418,
+       "proteinas": 10,
+       "carbohidratos": 76,
+       "grasas": 8,
+    },
+"categoria":
+    {
+       "nombreCategoria": "Cafés",
+       "descripcion": "Café tostado medio 250 grs"
+    }
+})
+
+/*010*/
+db.Producto.insertOne({
+   "_id": "PR010",
+   "idEmpresa": "UE002",
+   "nombre": "Mantequilla vegana",
+   "precioUnitario": 15.99,
+   "stock": 14,
+   "valorNutricional":{
+       "calorias": 119,
+       "proteinas": 1,
+       "carbohidratos": 2,
+       "grasas": 13,
+   },
+   "categoria":{
+       "nombreCategoria": "Mantequillas",
+       "descripcion": "Mantequillana vegana 100 grs"
+   }
+})
+
+/*011*/
+db.Producto.insertOne({
+   "_id": "PR011",
+   "idEmpresa": "UE002",
+   "nombre": "Café Premium",
+   "precioUnitario": 28.99,
+   "stock": 13,
+   "valorNutricional":{
+       "calorias": 318,
+       "proteinas": 20,
+       "carbohidratos": 59,
+       "grasas": 1,
+   },
+   "categoria":{
+       "nombreCategoria": "Cafés",
+       "descripcion": "Café premium - Alta montaña 250 grs"
+   }
+})
+
+/*012*/
+db.Producto.insertOne({
+   "_id": "PR012",
+   "idEmpresa": "UE001",
+   "nombre": "Piña deshidratada",
+   "precioUnitario": 8.99,
+   "stock": 20,
+   "valorNutricional":{
+       "calorias": 171,
+       "proteinas": 2,
+       "carbohidratos": 39,
+       "grasas": 1,
+   },
+   "categoria":{
+       "nombreCategoria": "Snacks",
+       "descripcion": "Piña deshidratada 50 grs"
+   }
+})
+
+
+/*013*/
+db.Producto.insertOne(
+{
+"_id": "PR013",
+"idEmpresa": "UE011",
+"nombre": "Maní con pasas",
+"precioUnitario": 3.99,
+"stock": 35,
+"valorNutricional":
+  {
+     "calorias": 150,
+     "proteinas": 4,
+     "carbohidratos": 10,
+     "grasas": 10,
+  },
+"categoria":
+  {
+     "nombreCategoria": "Snacks",
+     "descripcion": "Maní con pasas 75 grs"
+  }
+})
+
+/*014*/
+db.Producto.insertOne(
+{
+"_id": "PR014",
+"idEmpresa": "UE007",
+"nombre": "Curcuma en polvo",
+"precioUnitario": 20.99,
+"stock": 17,
+"valorNutricional":
+  {
+     "calorias": 12,
+     "proteinas": 1,
+     "carbohidratos": 2,
+     "grasas": 1,
+  },
+"categoria":
+  {
+     "nombreCategoria": "Harinas",
+     "descripcion": "Cúrcuma en polvo, sin glúten 227 grs"
+  }
+})
+
+/*015*/
+db.Producto.insertOne({
+"_id": "PR015",
+"idEmpresa": "UE009",
+"nombre": "Quinua instantanea",
+"precioUnitario": 23.99,
+"stock": 10,
+"valorNutricional":{
+          "calorias": 344,
+          "proteinas": 11,
+          "carbohidratos": 65,
+          "grasas": 5,
+},
+"categoria":{
+          "nombreCategoria": "Cereales",
+          "descripcion": "Quinua instantanea 300 grs"
+}
+})
+/*016*/
+
+/*017*/
+
+/*018*/
+
+/*019*/
+db.Producto.insertOne({
+ "_id": "PR019",
+ "idEmpresa": "UE018",
+ "nombre": "Bebida de almendras",
+ "precioUnitario": 21.99,
+ "stock": 16,
+ "valorNutricional":{
+           "calorias": 163,
+           "proteinas": 1,
+           "carbohidratos": 13,
+           "grasas": 3,
+ },
+ "categoria":{
+           "nombreCategoria": "Bebidas",
+           "descripcion": "Bebida de almendras x 1 LT"
+ }
+})
+
+/*020*/
+db.Producto.insertOne({
+ "_id": "PR020",
+ "idEmpresa": "UE003",
+ "nombre": "Queso fresco",
+ "precioUnitario": 34.99,
+ "stock": 11,
+ "valorNutricional":{
+           "calorias": 324,
+           "proteinas": 21,
+           "carbohidratos": 4,
+           "grasas": 25,
+ },
+ "categoria":{
+           "nombreCategoria": "Quesos",
+           "descripcion": "Queso fresco x 500 grs"
+ }
+})
+
+/*UsuarioEmpresa*/
+
+/*00*/
+
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE001",
+"nombreEmpresa": "Pablito food",
+"razonSocial": "SAC",
+"telefonoEmpresa": 980421763,
+"email": "ipsum.suspendisse.non@aol.net",
+"contraseña": "NYZ27EHN7WM",
+"localización":
+  {
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "San Juan de Miraflores",
+      "codigoPostal": 1505,
+      "nombreCalle": "Av. Los heroes",
+      "numCalle": 5
+  }
+})
+
+
+/*002*/
+
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE002",
+"nombreEmpresa": "Divape",
+"razonSocial": "SAA",
+"telefonoEmpresa": 980913480,
+"email": "asneden0@elegantthemes.com",
+"contraseña": "qYfFnRrI",
+"localización":
+  {
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Breña",
+      "codigoPostal": 1204,
+      "nombreCalle": "0153 Harbort Pass",
+      "numCalle": 1328
+  }
+})
+
+/*003*/
+
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE003",
+"nombreEmpresa": "Realbuzz",
+"razonSocial": "SRL",
+"telefonoEmpresa": 978987902,
+"email": "yogaven1@sitemeter.com",
+"contraseña": "jzNi2sR",
+"localización":
+  {
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Jesús María",
+      "codigoPostal": 1260,
+      "nombreCalle": "12775 Brickson Park Alley",
+      "numCalle": 10
+  }
+})
+
+/*004*/
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE004",
+"nombreEmpresa": "Oyoyo",
+"razonSocial": "SAC",
+"telefonoEmpresa": 913497379,
+"email": "pkohler2@tripod.com",
+"contraseña": "TrlNkf2KjI",
+"localización":
+  {
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "San Borja",
+      "codigoPostal":3280,
+      "nombreCalle":"50540 Morrow Point",
+      "numCalle": 64
+  }
+})
+
+/*005*/
+
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE005",
+"nombreEmpresa": "Trupe",
+"razonSocial": "EIRL",
+"telefonoEmpresa": 952374971,
+"email": "mniesegen3@simplemachines.org",
+"contraseña": "i2w5eM",
+"localización":
+  {
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "San Isidro",
+      "codigoPostal":2355,
+      "nombreCalle":"1 Barnett Drive",
+      "numCalle": 199
+  }
+})
+
+/*006*/
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE006",
+"nombreEmpresa": "Thoughtstorm",
+"razonSocial": "SAC",
+"telefonoEmpresa": 937138604,
+"email": "bsamweyes4@goodreads.com",
+"contraseña": "XqxlO9Me9j",
+"localización":
+  {
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Ate",
+      "codigoPostal": 3974,
+      "nombreCalle": "816 Hallows Center",
+      "numCalle": 714
+  }
+})
+
+/*007*/
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE007",
+"nombreEmpresa": "Realblab",
+"razonSocial": "SAC",
+"telefonoEmpresa": 997982272,
+"email": "vbramwich5@360.cn",
+"contraseña": "jUOBKaspxnh",
+"localización":
+   {
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "Chorrillos",
+       "codigoPostal": 1864,
+       "nombreCalle": "851 Golf View Street",
+       "numCalle": 291
+   }
+})
+
+/*008*/
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE008",
+"nombreEmpresa": "Blogspan",
+"razonSocial": "SAA",
+"telefonoEmpresa": 937918552,
+"email": "agomersall6@state.gov",
+"contraseña": "PN6JsKS7DWOK",
+"localización":
+   {
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "Comas",
+       "codigoPostal": 9434,
+       "nombreCalle": "3 Gale Avenue",
+       "numCalle": 9208
+   }
+})
+
+/*009*/
+db.UsuarioEmpresa.insertOne(
+{
+"_id": "UE009",
+"nombreEmpresa": "Eire",
+"razonSocial": "SRL",
+"telefonoEmpresa": 917028961,
+"email": "cvedeneev7@goo.ne.jp",
+"contraseña": "qg4xe6wq",
+"localización":
+   {
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "La Molina",
+       "codigoPostal": 7918,
+       "nombreCalle": "6 Westport Place",
+       "numCalle": 9201
+   }
+})
+
+/*010*/
+db.UsuarioEmpresa.insertOne(
+{
+   "_id": "UE010",
+   "nombreEmpresa": "Trilia",
+   "razonSocial": "SAC",
+   "telefonoEmpresa": 966852952,
+   "email": "jcolgan8@independent.co.uk",
+   "contraseña": "iaFa7IWR8Ck",
+   "localización":{
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "Rímac",
+       "codigoPostal": 1490,
+       "nombreCalle": "14363 Mifflin Way",
+       "numCalle": 7245
+   }
+})
+
+/*011*/
+db.UsuarioEmpresa.insertOne(
+{
+   "_id": "UE011",
+   "nombreEmpresa": "Layo",
+   "razonSocial": "EIRL",
+   "telefonoEmpresa": 949438170,
+   "email": "acreevy9@mozilla.com",
+   "contraseña": "tLzhtU7",
+   "localización":{
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "Pueblo Libre",
+       "codigoPostal": 3234,
+       "nombreCalle": "6535 Bultman Crossing",
+       "numCalle": 1839
+   }
+})
+
+/*012*/
+db.UsuarioEmpresa.insertOne(
+{
+   "_id": "UE012",
+   "nombreEmpresa": "Vimbo",
+   "razonSocial": "SAA",
+   "telefonoEmpresa": 977169505,
+   "email": "rbottrilla@dyndns.org",
+   "contraseña": "At3P4PyZ",
+   "localización":{
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "San Juan de Miraflores",
+       "codigoPostal": 3533,
+       "nombreCalle": "42 Linden Plaza",
+       "numCalle": 22674
+   }
+})
+/*013*/
+db.UsuarioEmpresa.insertOne(
+{
+  "_id": "UE013",
+  "nombreEmpresa": "Edgeblab",
+  "razonSocial": "SAC",
+  "telefonoEmpresa": 995475310,
+  "email": "rschirakb@mac.com",
+  "contraseña": "32InAqk",
+  "localización":{
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Breña",
+      "codigoPostal": 8124,
+      "nombreCalle": "9297 Goodland Way",
+      "numCalle": 6
+  }
+})
+/*014*/
+db.UsuarioEmpresa.insertOne(
+{
+  "_id": "UE014",
+  "nombreEmpresa": "Chatterbridge",
+  "razonSocial": "EIRL",
+  "telefonoEmpresa": 997557359,
+  "email": "gminihanec@discuz.net",
+  "contraseña": "lFv7b0qb",
+  "localización":{
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Jesús María",
+      "codigoPostal": 9596,
+      "nombreCalle": "95908 Anhalt Terrace",
+      "numCalle": 558
+  }
+})
+/*015*/
+db.UsuarioEmpresa.insertOne({
+"_id": "UE015",
+"nombreEmpresa": "Brightbean",
+"razonSocial": "SAC",
+"telefonoEmpresa": 988457915,
+"email": "enorledged@flickr.com",
+"contraseña": "VhcnjgAW",
+"localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "San Borja",
+         "codigoPostal": 5245,
+         "nombreCalle": "62407 Lawn Lane",
+         "numCalle": 2
+}
+})
+
+/*016*/
+db.UsuarioEmpresa.insertOne({
+"_id": "UE016",
+"nombreEmpresa": "Abatz",
+"razonSocial": "SAA",
+"telefonoEmpresa": 961483187,
+"email": "ndorete@bluehost.com",
+"contraseña": "7BmjiRQtx",
+"localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "San Isidro",
+         "codigoPostal": 8460,
+         "nombreCalle": "26259 4th Crossing",
+         "numCalle": 1
+}
+})
+
+
+/*017*/
+db.UsuarioEmpresa.insertOne({
+"_id": "UE017",
+"nombreEmpresa": "Quimm",
+"razonSocial": "SAC",
+"telefonoEmpresa": 909479193,
+"email": "jkilohf@google.cn",
+"contraseña": "VRbN9sj7SY",
+"localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "Huaral",
+         "codigoPostal": 1550,
+         "nombreCalle": "241 South Place",
+         "numCalle": 732
+}
+})
+
+/*018*/
+db.UsuarioEmpresa.insertOne({
+"_id": "UE018",
+"nombreEmpresa": "Skalith",
+"razonSocial": "SAC",
+"telefonoEmpresa":938880559,
+"email": "shallattg@mapy.cz",
+"contraseña": "X5qh7kcr",
+"localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "Cañete",
+         "codigoPostal":8947,
+         "nombreCalle": "78 Farragut Terrace",
+         "numCalle": 83876
+}
+})
+
+/*019*/
+db.UsuarioEmpresa.insertOne({
+"_id": "UE019",
+"nombreEmpresa": "Mynte",
+"razonSocial": "SAC",
+"telefonoEmpresa": 969530002,
+"email": "tcarlosh@facebook.com",
+"contraseña": "4HpRQnwqD7Rt",
+"localización":{
+          "pais": "Peru",
+          "region": "Lima",
+          "distrito": "Huarochirí",
+          "codigoPostal": 6767,
+          "nombreCalle": "5768 Steensland Terrace",
+          "numCalle": 6
+}
+})
+
+
+/*020*/
+db.UsuarioEmpresa.insertOne({
+"_id": "UE020",
+"nombreEmpresa": "Wordtune",
+"razonSocial": "SAA",
+"telefonoEmpresa": 961483157,
+"email": "ccardosoi@altervista.org",
+"contraseña": "HznCEi",
+"localización":{
+          "pais": "Peru",
+          "region": "Lima",
+          "distrito": "Canta",
+          "codigoPostal": 7834,
+          "nombreCalle": "7 Schlimgen Crossing",
+          "numCalle": 35119
+}
+})
+
+
+/*UsuarioConsumidor*/
+
+/*001*/
+
+db.UsuarioConsumidor.insertOne({
+"_id": "UC001",
+"nombreConsumidor": "Juan Carlos Smith",
+"telefonoConsumidor": 953517289,
+"añoNacimiento": new Date("2003-11-19"),
+"email": "bevenden5@soundcloud.com ",
+"contraseña": "50Q5d12BRf",
+"localización":{
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Surco",
+      "codigoPostal": 3485,
+      "nombreCalle": "4852 Rockefeller Junction",
+      "numCalle": 8
+}
+})
+
+
+/*002*/
+db.UsuarioConsumidor.insertOne({
+"_id": "UC002",
+"nombreConsumidor": "Diandra Biggans",
+"telefonoConsumidor": 921572059,
+"añoNacimiento": new Date("2002-02-06"),
+"email": "drodger0@tumblr.com",
+"contraseña": "ixq8ydTCVI7",
+"localización":{
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Breña",
+      "codigoPostal": 1204,
+      "nombreCalle": "662 Derek Avenue",
+      "numCalle": 1328
+}
+})
+
+
+/*003*/
+
+db.UsuarioConsumidor.insertOne({
+"_id": "UC003",
+"nombreConsumidor": "Saudra Sivess",
+"telefonoConsumidor": 935764839,
+"añoNacimiento": new Date("2000-04-26"),
+"email": "emessham1@hexun.com",
+"contraseña": "fxSWAqx",
+"localización":{
+      "pais": "Peru",
+      "region": "Lima",
+      "distrito": "Cañete",
+      "codigoPostal": 1260,
+      "nombreCalle": "73 Scoville Drive",
+      "numCalle": 10
+}
+})
+
+/*004*/
+db.UsuarioConsumidor.insertOne({
+"_id": "UC004",
+"nombreConsumidor": "Allissa Messager",
+"telefonoConsumidor": 973591429,
+"añoNacimiento": new Date("1998-07-15"),
+"email": "cpetranek2@plala.or.jp",
+"contraseña": "GhBMGPt",
+"localización":{
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "San Borja",
+      "codigoPostal":3280,
+      "nombreCalle":"7 Nova Terrace",
+      "numCalle": 64
+}
+})
+
+/*005*/
+db.UsuarioConsumidor.insertOne({
+"_id": "UC005",
+"nombreConsumidor": "Tildi O'Kieran",
+"telefonoConsumidor": 989652047,
+"añoNacimiento": new Date("1996-10-02"),
+"email": "olapthorne3@hc360.com",
+"contraseña": "JYDpqx7xpu",
+"localización":{
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "San Isidro",
+      "codigoPostal":2355,
+      "nombreCalle":"7548 Evergreen Court",
+      "numCalle": 199
+}
+})
+
+/*006*/
+db.UsuarioConsumidor.insertOne({
+"_id": "UC006",
+"nombreConsumidor": "Mark Fenge",
+"telefonoConsumidor": 993388715,
+"añoNacimiento": new Date("1994-12-21"),
+"email": "btessington4@wsj.com",
+"contraseña": "u7r4UoSvT",
+"localización":{
+      "pais": "Peru",
+      "region": "Lima metropolitana",
+      "distrito": "Ate",
+      "codigoPostal": 3974,
+      "nombreCalle": "0943 Portage Court",
+      "numCalle": 714
+}
+})
+
+/*007*/
+db.UsuarioConsumidor.insertOne({
+"_id": "UC007",
+"nombreConsumidor": "Arty Denyagin",
+"telefonoConsumidor": 989408174,
+"añoNacimiento": new Date("2001-05-05"),
+"email": "jkstoakes5@ted.com",
+"contraseña": "a4wUJlKl2Ofw",
+"localización":{
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "Chorillos",
+       "codigoPostal": 1864,
+       "nombreCalle": "89061 Pierstorff Point",
+       "numCalle": 291
+}
+})
+
+/*008*/
+db.UsuarioConsumidor.insertOne({
+"_id": "UC008",
+"nombreConsumidor": "Gaby Challinor",
+"telefonoConsumidor": 954397716,
+"añoNacimiento": new Date("2004-01-24"),
+"email": "kmcrinn6@naver.com",
+"contraseña": "ogu8Dl",
+"localización":{
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "Comas",
+       "codigoPostal": 9434,
+       "nombreCalle": "050 Dorton Court",
+       "numCalle": 9208
+}
+})
+
+/*009*/
+db.UsuarioConsumidor.insertOne({
+"_id": "UC009",
+"nombreConsumidor": "Dulcea Arnold",
+"telefonoConsumidor": 949184754,
+"añoNacimiento": new Date("2001-12-31"),
+"email": "kfellgate7@privacy.gov.au",
+"contraseña": "II8Ux0QR",
+"localización":{
+       "pais": "Peru",
+       "region": "Lima metropolitana",
+       "distrito": "La Molina",
+       "codigoPostal": 7918,
+       "nombreCalle": "571 Mitchell Plaza",
+       "numCalle": 9201
+}
+})
+
+/*010*/
+db.UsuarioConsumidor.insertOne(
+{
+   "_id": "UC010",
+   "nombreConsumidor": "Garrott Platfoot",
+   "telefonoConsumidor": 934996671,
+   "añoNacimiento": new Date("2000-11-16"),
+   "email": "shuntingford8@imageshack.us",
+   "contraseña": "DzSFXUQrvk",
+   "localización":{
+          "pais": "Peru",
+          "region": "Lima",
+          "distrito": "Huaral",
+          "codigoPostal": 1490,
+          "nombreCalle": "7085 4th Park",
+          "numCalle": 7245
+}
+})
+
+/*011*/
+db.UsuarioConsumidor.insertOne(
+{
+   "_id": "UC011",
+   "nombreConsumidor": "Ragnar Antoniades",
+   "telefonoConsumidor": 970224245,
+   "añoNacimiento": new Date("1998-10-31"),
+   "email": "edobel9@arstechnica.com",
+   "contraseña": "ByHhl0Nn",
+   "localización":{
+          "pais": "Peru",
+          "region": "Lima metropolitana",
+          "distrito": "Pueblo Libre",
+          "codigoPostal": 3234,
+          "nombreCalle": "90 Eliot Circle",
+          "numCalle": 1839
+}
+})
+
+/*012*/
+db.UsuarioConsumidor.insertOne(
+{
+   "_id": "UC012",
+   "nombreConsumidor": "Andre Orgee",
+   "telefonoConsumidor": 914038714,
+   "añoNacimiento": new Date("1995-11-16"),
+   "email": "ltattersa@uiuc.edu",
+   "contraseña": "aBwjzw6",
+   "localización":{
+          "pais": "Peru",
+          "region": "Lima metropolitana",
+          "distrito": "Santa Anita",
+          "codigoPostal": 3533,
+          "nombreCalle": "2 Oak Valley Avenue",
+          "numCalle": 22674
+}
+})
+/*013*/
+db.UsuarioConsumidor.insertOne(
+{
+  "_id": "UC013",
+  "nombreConsumidor": "Balduin Affuso",
+  "telefonoConsumidor": 912297738,
+  "añoNacimiento": new Date("1994-09-29"),
+  "email": "rhaselwoodb@ebay.com",
+  "contraseña": "8uQkgxTudI9z",
+  "localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "Surco",
+         "codigoPostal": 8124,
+         "nombreCalle": "4 Moulton Terrace",
+         "numCalle": 6
+}
+})
+
+/*014*/
+db.UsuarioConsumidor.insertOne(
+{
+  "_id": "UC014",
+  "nombreConsumidor": "Clarette Haysom",
+  "telefonoConsumidor": 995584651,
+  "añoNacimiento": new Date("1992-09-11"),
+  "email": "eanfossoc@yandex.ru",
+  "contraseña": "Q3KdX2R",
+  "localización":{
+         "pais": "Peru",
+         "region": "Lima",
+         "distrito": "Yauyos",
+         "codigoPostal": 9596,
+         "nombreCalle": "3 Forster Circle",
+         "numCalle": 558
+}
+})
+/*015*/
+db.UsuarioConsumidor.insertOne(
+{
+  "_id": "UC015",
+  "nombreConsumidor": "Ailene Brabant",
+  "telefonoConsumidor": 999067301,
+  "añoNacimiento": new Date("1990-04-26"),
+  "email": "epancoustd@amazonaws.com",
+  "contraseña": "ai8dFm",
+  "localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "Jesús María",
+         "codigoPostal": 5245,
+         "nombreCalle": "48 Brickson Park Center",
+         "numCalle": 2
+}
+})
+/*016*/
+
+db.UsuarioConsumidor.insertOne(
+{
+  "_id": "UC016",
+  "nombreConsumidor": "D'arcy Foxworthy",
+  "telefonoConsumidor": 960017372,
+  "añoNacimiento": new Date("1988-03-10"),
+  "email": "ggrimselle@wsj.com",
+  "contraseña": "fT3VYd",
+  "localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "San Borja",
+         "codigoPostal": 8460,
+         "nombreCalle": "53018 Gateway Plaza",
+         "numCalle": 1
+}
+})
+
+/*017*/
+db.UsuarioConsumidor.insertOne(
+{
+  "_id": "UC017",
+  "nombreConsumidor": "Leonid Redholes",
+  "telefonoConsumidor":995133325,
+  "añoNacimiento": new Date("1987-02-13"),
+  "email": "khayfordf@lulu.com",
+  "contraseña": "eWdBA8",
+  "localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "San Isidro",
+         "codigoPostal": 1550,
+         "nombreCalle": "01758 Welch Way",
+         "numCalle": 732
+}
+})
+
+
+/*018*/
+db.UsuarioConsumidor.insertOne(
+{
+  "_id": "UC018",
+  "nombreConsumidor": "Vanny de Banke",
+  "telefonoConsumidor": 937859777,
+  "añoNacimiento": new Date("1985-01-12"),
+  "email": "bmacleang@networksolutions.com",
+  "contraseña": "6ZxGFJnaEhna",
+  "localización":{
+         "pais": "Peru",
+         "region": "Lima metropolitana",
+         "distrito": "Ate",
+         "codigoPostal": 8947,
+         "nombreCalle": "105 Carberry Terrace",
+         "numCalle": 83876
+}
+})
+
+
+/*019*/
+db.UsuarioConsumidor.insertOne({
+ "_id": "UC019",
+ "nombreConsumidor": "Maighdiln Petrolli",
+ "telefonoConsumidor": 977680917,
+ "añoNacimiento": new Date("1982-08-14"),
+ "email": "jpeerh@forbes.com",
+ "contraseña": "ibuk8tvyB",
+ "localización":{
+           "pais": "Peru",
+           "region": "Lima metropolitana",
+           "distrito": "Chorillos",
+           "codigoPostal": 6767,
+           "nombreCalle": "04 Arapahoe Lane",
+           "numCalle": 6
+ }
+})
+
+/*020*/
+db.UsuarioConsumidor.insertOne({
+ "_id": "UC020",
+ "nombreConsumidor": "Adelheid Perri",
+ "telefonoConsumidor": 987213080,
+ "añoNacimiento": new Date("1979-11-13"),
+ "email": "dnervali@bing.com",
+ "contraseña": "ciBzmPAC",
+ "localización":{
+           "pais": "Peru",
+           "region": "Lima",
+           "distrito": "Huarochirí",
+           "codigoPostal": 7834,
+           "nombreCalle": "89 Dovetail Junction",
+           "numCalle": 35119
+ }
+})
+
+
+
+
+
+

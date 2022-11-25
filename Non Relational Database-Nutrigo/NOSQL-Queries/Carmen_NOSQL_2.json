@@ -1,0 +1,11 @@
+/*Listar el nombre de los repartidores que tengan como medio transporte bicicletas*/
+
+db.Repartidor.aggregate([
+   {$match: {
+       "transporte.tipoTransporte": {$eq : "Bicicleta"}
+   }},
+   {$project: {
+       _id: 0,
+       nombreRepartidor: 1,
+   }}
+])

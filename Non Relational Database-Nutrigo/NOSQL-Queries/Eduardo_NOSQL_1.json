@@ -1,0 +1,18 @@
+/*Listar los  productos con más unidades vendidas.*/
+
+db.Orden.aggregate([
+    {
+        $unwind: "$ordenDetalles"
+    },
+    {
+        $group:{
+            _id: "$ordenDetalles.idProducto",
+            cantidad: {$sum:"$ordenDetalles.cantidadProducto"}
+        }
+    },
+    {
+        $sort:{
+            cantidad: -1
+        }
+    }
+])

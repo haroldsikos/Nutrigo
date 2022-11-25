@@ -1,0 +1,11 @@
+/*Listar los repartidores que tengan más de 3 puntos de promedio de valoración.*/
+
+
+db.Repartidor.aggregate([
+{$match:{"promedioValoracion":{$gt:3}}},
+{$project:{
+   "_id":1,
+   "nombreRepartidor":1,
+   "promedioValoracion":1,
+}}
+])

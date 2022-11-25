@@ -1,0 +1,10 @@
+/*Listar las empresas que tengan como razón social SAC.*/
+
+db.UsuarioEmpresa.aggregate([
+{$match: { "razonSocial": "SAC" }},
+{$project:{
+   "_id": 1,
+   "nombreEmpresa": 1,
+   "razonSocial": 1
+   }}
+])

@@ -1,0 +1,10 @@
+/*Ordenar ascendentemente las órdenes según la fecha de solicitud y mostrando el id del consumidor.*/
+
+db.Orden.aggregate([
+   {$sort : {fechaOrden:-1}},
+   {$project: {
+       "_id":1,
+       "idConsumidor":1,
+       "fechaOrden":1
+    }}
+])

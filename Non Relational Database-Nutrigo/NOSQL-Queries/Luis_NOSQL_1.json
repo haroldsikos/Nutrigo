@@ -1,0 +1,11 @@
+/*Indicar el producto que posea la categoría de “Endulzantes”*/
+
+db.Producto.aggregate([
+   {$match: {"categoria.nombreCategoria": {$eq: "Endulzantes"}}},
+
+   {$project: {
+       "_id": 1,
+       "nombre": 1,
+       "categoria.nombreCategoria": 1
+   }}
+])

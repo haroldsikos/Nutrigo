@@ -1,0 +1,414 @@
+use db_Nutrigo
+
+db.createCollection(
+    "Repartidor",{
+        validator:{
+            $jsonSchema:{
+                bsonType:"object",
+                description: "Documento que describe al repartidor de la empresa",
+                required:[
+                    "_id",
+                    "nombreRepartidor",
+                    "telefonoRepartidor",
+                    "promedioValoracion",
+                    "transporte"
+                ],
+                properties:{
+                    _id:{
+                        bsonType:"string",
+                        description: "'_id' debe ser un string y es requerido"
+                    },
+                    nombreRepartidor:{
+                        bsonType: "string",
+                        description: "'nombreRepartidor' debe ser un string y es requerido"
+                    },
+                    telefonoRepartidor:{
+                        bsonType: "int",
+                        description: "'telefonoRepartidor' debe ser un int y es requerido"
+                    },
+                    promedioValoracion:{
+                        bsonType: "double",
+                        description: "'promedioValoracion' debe ser un double y es requerido"
+                    },
+                    transporte:{
+                        bsonType:"object",
+                        description: "Documento que describe el tranporte de un repartidor",
+                        required:[
+                            "idTransporte",
+                            "tipoTransporte",
+                            "estado",
+                            "capacidad",
+                        ],
+                        properties:{
+                            idTransporte:{
+                                bsonType: "string",
+                                description:"'idTransporte' debe ser un string y requerido"
+                            },
+                            tipoTransporte:{
+                                bsonType: "string",
+                                description:"'tipotransporte' debe ser un string y requerido"
+                            },
+                            estado:{
+                                bsonType: "string",
+                                description:"'estado' debe ser un string y requerido"
+                            },
+                            capacidad:{
+                                bsonType: "int",
+                                description:"'capacidad' debe ser un int y requerido"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+)
+
+
+db.createCollection(
+    "UsuarioConsumidor",{
+        validator: {
+                    $jsonSchema:
+                        {
+                            bsonType: "object",
+                            description: "Documento que describe a un Usuario Consumidor",
+                            required:
+                            [
+                                "_id",
+                                "nombreConsumidor",
+                                "telefonoConsumidor",
+                                "añoNacimiento",
+                                "email",
+                                "contraseña",
+                                "localización"
+                            ],
+                            properties: {
+                                _id:{
+                                    bsonType:"string",
+                                    description: "'_id' debe ser un string y es requerido"
+                                },
+                                nombreConsumidor: {
+                                    bsonType: "string",
+                                    description: "'nombreConsumidor' debe ser un string y es requerido"
+                                },
+                                telefonoConsumidor: {
+                                    bsonType: "int",
+                                    description: "'telefonoConsumidor' debe ser un int y es requerido"
+                                },
+                                añoNacimiento: {
+                                    bsonType: "date",
+                                    description: "'añoNacimiento' debe ser un date y es requerido"
+                                },
+                                email: {
+                                    bsonType: "string",
+                                    description: "'email' debe ser un string y es requerido"
+                                },
+                                contraseña: {
+                                    bsonType: "string",
+                                    description: "'contraseña' debe ser un string y es requerido"
+                                },
+                                localización:{
+                                    bsonType: "object",
+                                    description: "Documento que describe la localizacion de un Usuario Consumidor",
+                                    required:
+                                    [
+                                        "pais",
+                                        "region",
+                                        "distrito",
+                                        "codigoPostal",
+                                        "nombreCalle",
+                                        "numCalle"
+                                    ],
+                                    properties: {
+                                        pais: {
+                                            bsonType: "string",
+                                            description: "'pais' debe ser un string y es requerido"
+                                        },
+                                        region: {
+                                            bsonType: "string",
+                                            description: "'region' debe ser un string y es requerido"
+                                        },
+                                        distrito: {
+                                            bsonType: "string",
+                                            description: "'distrito' debe ser un string y es requerido"
+                                        },
+                                        codigoPostal: {
+                                            bsonType: "int",
+                                            description: "'codigoPostal' debe ser un int y es requerido"
+                                        },
+                                        nombreCalle: {
+                                            bsonType: "string",
+                                            description: "'nombreCalle' debe ser un string y es requerido"
+                                        },
+                                        numCalle: {
+                                            bsonType: "int",
+                                            description: "'numCalle' debe ser un int y es requerido"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                }
+    })
+
+
+
+db.createCollection(
+    "UsuarioEmpresa",{
+        validator:{
+            $jsonSchema:
+            {
+                bsonType: "object",
+                description: "Documento que describe a un Usuario empresa",
+                required:
+                [
+                    "_id",
+                    "nombreEmpresa",
+                    "razonSocial",
+                    "telefonoEmpresa",
+                    "email",
+                    "contraseña",
+                    "localización"
+                ],
+                properties:{
+
+                    _id:{
+                        bsonType:"string",
+                        description: "'_id' debe ser un string y es requerido"
+                    },
+                    nombreEmpresa:{
+                        bsonType:"string",
+                        description:"'nombreEmpresa' debe ser un string y es requerido"
+                    },
+                    razonSocial:{
+                        bsonType:"string",
+                        description:"'razonSocial' es un string y es requerido"
+                    },
+                    telefonoEmpresa:{
+                        bsonType:"int",
+                        description: "'telefonoEmpresa' es un int y es requerido"
+                    },
+                    email:{
+                        bsonType:"string",
+                        description:"'email' es un string y es requerido"
+                    },
+                    contraseña:{
+                        bsonType:"string",
+                        description:"'contraseña' es un string y es requerido"
+                    },
+                    localización:{
+                                    bsonType: "object",
+                                    description: "Documento que describe la localizacion de un Usuario Consumidor",
+                                    required:
+                                    [
+                                        "pais",
+                                        "region",
+                                        "distrito",
+                                        "codigoPostal",
+                                        "nombreCalle",
+                                        "numCalle"
+                                    ],
+                                    properties: {
+                                        pais: {
+                                            bsonType: "string",
+                                            description: "'pais' debe ser un string y es requerido"
+                                        },
+                                        region: {
+                                            bsonType: "string",
+                                            description: "'region' debe ser un string y es requerido"
+                                        },
+                                        distrito: {
+                                            bsonType: "string",
+                                            description: "'distrito' debe ser un string y es requerido"
+                                        },
+                                        codigoPostal: {
+                                            bsonType: "int",
+                                            description: "'codigoPostal' debe ser un int y es requerido"
+                                        },
+                                        nombreCalle: {
+                                            bsonType: "string",
+                                            description: "'nombreCalle' debe ser un string y es requerido"
+                                        },
+                                        numCalle: {
+                                            bsonType: "int",
+                                            description: "'numCalle' debe ser un int y es requerido"
+                                     }
+                                }
+                         }
+                }
+            }
+        }
+    }
+)
+
+
+
+db.createCollection(
+    "Orden",{
+        validator:{
+            $jsonSchema:
+            {
+                bsonType: "object",
+                description: "Documento que describe a una orden",
+                required:
+                [
+                    "_id",
+                    "idRepartidor",
+                    "idConsumidor",
+                    "fechaOrden",
+                    "medioDePago",
+                    "ordenDetalles"
+                ],
+                properties:{
+
+                    _id:{
+                        bsonType:"string",
+                        description: "'_id' debe ser un string y es requerido"
+                    },
+
+                    idRepartidor:{
+                        bsonType:"string",
+                        description: "'idRepartidor' debe ser un string y es requerido"
+                    },
+                    idConsumidor:{
+                        bsonType:"string",
+                        description: "'idConsumidor' debe ser un string y es requerido"
+                    },
+                    fechaOrden:{
+                        bsonType:"date",
+                        description: "'fechaOrder' debe ser un date y es requerido"
+                    },
+                    medioDePago:{
+                        bsonType:"string",
+                        description: "'medioPago' debe ser un string y es requerido"
+                    },
+                    ordenDetalles:{
+                        bsonType:"array",
+                        minItems: 1,
+                        uniqueItems: true,
+                        items: {
+                            bsonType: "object",
+                            required:[
+                                    "idProducto",
+                                    "descuento",
+                                    "cantidadProducto",
+                                    "precioTotal"
+                                    ],
+                            properties:{
+
+                                    idProducto:{
+                                        bsonType:"string",
+                                        description: "'idProducto' debe ser un string y es requerido. Debe contener el id del producto"
+                                    },
+                                    descuento:{
+                                        bsonType:"int",
+                                        description:"'descuento' debe ser un int  y es requerido"
+                                    },
+                                    cantidadProducto:{
+                                        bsonType:"int",
+                                        description:"'cantidadProducto' debe ser un int  y es requerido"
+                                    },
+                                    precioTotal:{
+                                        bsonType:"double",
+                                        description:"'precioTotal' debe ser un double y es requerido"
+                                    }
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+)
+
+
+
+
+db.createCollection(
+    "Producto", {
+        validator: {
+            $jsonSchema: {
+                bsonType: "object",
+                description:  "Este documento describe el producto",
+                required: [
+                    "_id",
+                    "idEmpresa",
+                    "nombre",
+                    "precioUnitario",
+                    "stock",
+                    "valorNutricional",
+                    "categoria"
+                ],
+                properties: {
+                    _id:{
+                        bsonType:"string",
+                        description: "'_id' debe ser un string y es requerido"
+                    },
+                    idEmpresa: {
+                        bsonType: "string",
+                        description: "id_empresa debe ser un string y es obligatorio"
+                    },
+                    nombre: {
+                        bsonType: "string",
+                        description: "nombre debe ser un string y es obligatorio"
+                    },
+                    precioUnitario: {
+                        bsonType: "double",
+                        description: "precio_unitario debe ser un double y es obligatorio"
+                    },
+                    stock: {
+                        bsonType: "int",
+                        description: "stock debe ser un int y es obligatorio"
+                    },
+                    valorNutricional: {
+                        bsonType: "object",
+                        description:  "Este documento embebido describe el valor nutricional del producto",
+                        required: [
+                            "calorias",
+                            "proteinas",
+                            "carbohidratos",
+                            "grasas"
+                        ],
+                        properties: {
+                            calorias: {
+                                bsonType: "int",
+                                description: "calorias debe ser un int y es obligatorio"
+                            },
+                            proteinas: {
+                                bsonType: "int",
+                                description: "proteinas debe ser un int y es obligatorio"
+                            },
+                            carbohidratos: {
+                                bsonType: "int",
+                                description: "carbohidratos debe ser un int y es obligatorio"
+                            },
+                            grasas: {
+                                bsonType: "int",
+                                description: "grasas debe ser un int y es obligatorio"
+                            }
+                        }
+                    },
+                    categoria: {
+                        bsonType: "object",
+                        description:  "Este documento embebido describe el valor nutricional del producto",
+                        required: [
+                            "nombreCategoria",
+                            "descripcion"
+                         ],
+                        properties: {
+                            nombreCategoria: {
+                                bsonType: "string",
+                                description: "nombre_categoria debe ser un string y es obligatorio"
+                            },
+                            descripcion: {
+                                bsonType: "string",
+                                description: "descripcion debe ser un string y es obligatorio"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+)
+

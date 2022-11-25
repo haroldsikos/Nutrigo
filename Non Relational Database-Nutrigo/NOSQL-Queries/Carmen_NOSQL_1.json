@@ -1,0 +1,12 @@
+/*Listar el nombre de los repartidores de los cuales su medio de transporte se encuentre en estado Listo.*/
+
+db.Repartidor.aggregate([
+   {$match: {
+       "transporte.estado": {$eq : "Listo"}
+   }},
+   {$project: {
+       _id: 0,
+       nombreRepartidor: 1,
+       "capacidad transporte": "$transporte.capacidad"
+   }}
+])

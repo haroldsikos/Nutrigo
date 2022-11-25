@@ -1,0 +1,38 @@
+/*Listar las empresas que ofrezcan 2 a más categorías distintas de productos*/
+
+db.Producto.aggregate([
+    {
+      $group:{
+            _id: "$idEmpresa",
+            cantidad: {$count:{}}
+        }
+    },
+    {
+        $match:{
+            cantidad: {$gte: 2}
+        }
+    },
+    {
+        $lookup:{
+            from: "UsuarioEmpresa",
+            localField: "_id",
+            foreignField: "_id",
+            as: "Empresa"
+        }
+    },
+    {
+        $project:{
+            _id: 0,
+            nombreEmpresa: "$Empresa.nombreEmpresa",
+            cantidad: 1
+        }
+    },
+    {
+        $unwind: "$nombreEmpresa"
+    },
+    {
+        $sort: {
+            cantidad: -1
+        }
+    }
+])

@@ -1,0 +1,10 @@
+/*Listar el nombre de los consumidores que NO residan en el distrito de Lima metropolitana*/
+
+db.UsuarioConsumidor.aggregate([
+    {$match: {"localización.region": {$ne: "Lima metropolitana"}}},
+    {$project: {
+        "_id": 1,
+        "nombreConsumidor": 1,
+        "localización.region": 1
+    }}
+])

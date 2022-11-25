@@ -1,0 +1,10 @@
+/*Listar los productos que tengan menor o igual de 10 unidades de stock.*/
+
+db.Producto.aggregate([
+{$match:{"stock":{$lte:10}}},
+{$project:{
+   "_id":1,
+   "nombre":1,
+   "precioUnitario":1,
+}}
+])
