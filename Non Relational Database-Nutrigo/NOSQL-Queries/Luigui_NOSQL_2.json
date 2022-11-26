@@ -1,0 +1,10 @@
+/*listar los productos con más de 100 calorias*/
+
+                      db.Producto.aggregate([
+                      {$match:{"valorNutricional.calorias":{$gt:100}}},
+                      {$project:{
+                       "_id":1,
+                      "nombre":1,
+                     "valorNutricional.Calorias":1,
+                       }}
+                       ])

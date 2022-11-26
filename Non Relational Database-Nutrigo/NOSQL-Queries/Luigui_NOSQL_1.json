@@ -1,0 +1,10 @@
+/*Listar las empresas que estén localizadas en el distrito de San isidro*/
+
+                     db.UsuarioEmpresa.aggregate([
+                     {$match: {"localización.distrito {$eq: "San Isidro"}}},
+                      {$project: {
+                     "_id": 1,
+   	          "UsuarioEmpresa": 1,
+                     "localización.distrito": 1
+                        }}
+                      ])
